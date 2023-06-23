@@ -1,0 +1,16 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+.oliveButton{
+    margin:0px;
+    width: 50%;
+    height:100px;
+    width:100px;
+    border: 2px solid #BAB86C;
+    border-radius: 50%;
+}
