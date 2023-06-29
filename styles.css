@@ -1,7 +1,25 @@
-/* Place your CSS styles in this file */
 
 h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
+    margin-bottom: 100px;
+}
+.oliveButton{
+    margin:0px;
+    height:100px;
+    width:100px;
+    border: 2px solid #BAB86C;
+    border-radius: 50%;
+    z-index: 2;
+}
+.button1 {
+    height:50px;width:200px;
+    margin-left: 4cm;
+    margin-right: 14cm;
+}
+.button2 {
+    height:50px;width:200px;
+    margin-left: 14cm;
+    margin-right: 4cm;
 }
