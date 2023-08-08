@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
 
+        <title>Blank template</title>
         <title>Olive Idle</title>
 
         <!-- Load external CSS styles -->
@@ -11,39 +12,59 @@
 
     </head>
     <style>
+        .button1 {
+        height:50px;width:200px;
+        margin-left: 4cm;
+        margin-right: 12cm;
+        }
+        .button2 {
+        height:50px;width:200px;
+        margin-left: 12cm;
+        margin-right: 4cm;
+        }
 
     </style>
 
+    <body>
+
+        <h1>Olive Idle</h1>
 
     <body>
-        
+
+
+
         <h1>Olive Count: <span id="olives">0</span> </h1>
+        <h2>Olives Per Second: <span id="olivesPerSecond">0</span> </h2>
         <div style="text-align:center;">
             <button onclick="OliveClick(1)"; class="oliveButton">Make An Olive</button>
         </div>
 
-        <button onClick="buyTree()"; class="button1">Olive Tree</button>
+        <button onClick="BuyTree()"; class="button1">Olive Tree</button>
         Trees: <span id="trees">0</span>
         Cost: <span id="treeCost">10</span>
-        <button class="button2">Upgrade One</button>
-        
-        <div></div>
-        <button class="button1">Building Two</button>
 
-        <button class="button2">Upgrade Two</button>
+        <button onClick="TreeMultUp()"; class="button2">Tree Fertilizer</button>
         
-        <div></div>
-        <button class="button1">Building three</button>
 
-        <button class="button2">Upgrade three</button>
-        
         <div></div>
-        <button class="button1">Building four</button>
+        <button onClick="BuyFarmer()"; class="button1">Olive Farmer</button>
 
-        <button class="button2">Upgrade four</button>
+        <button onClick="FarmerMultUp()"; class="button2">Farmer Meal</button>
+
+        <div></div>
+        <button onClick="BuyPlot()"; class="button1">New Plot</button>
+
+        <button onClick="PlotMultUp()"; class="button2">Plot Irrigation</button>
+
+        <div></div>
+        <button onClick = "BuyFarm()"; class="button1">New Farm</button>
+
+        <button onClick = "FarmMultUp()"; class="button2">Upgrade Farm Equipment</button>
 
 
         <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+
         <script type ="text/javascript" src="scripts.js"></script>
     </body>
 
